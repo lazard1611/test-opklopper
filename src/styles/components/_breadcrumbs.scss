@@ -1,0 +1,53 @@
+.breadcrumbs {
+	&:not(:last-child) {
+		margin-bottom: 1.2rem;
+	}
+}
+
+.breadcrumbs__list {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+
+	margin-right: -0.8rem;
+}
+
+.breadcrumbs__item {
+	padding-right: 0.4rem;
+}
+
+.breadcrumbs__link {
+	display: flex;
+	align-items: center;
+
+	font-weight: 400;
+
+	color: $black_1;
+	transition: color 0.3s ease;
+
+	&:focus,
+	&:hover {
+		color: $gray;
+	}
+
+	.breadcrumbs__item:not(:last-child) & {
+		&:after {
+			content: '/';
+			margin-left: 0.25em;
+		}
+	}
+
+	.breadcrumbs__item:last-child & {
+		pointer-events: none;
+	}
+
+	@include bp($tablet, min) {
+		font-size: 1.4rem;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 1.2rem;
+	}
+}
+

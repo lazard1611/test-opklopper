@@ -1,0 +1,161 @@
+.presentation {
+	padding-top: 4.8rem;
+}
+
+.presentation__title {
+	@include h3;
+	max-width: 107.5rem;
+
+	&:not(:last-child) {
+		@include bp($tablet, min) {
+			margin-bottom: 3.6rem;
+		}
+
+		@include bp($tablet - 1) {
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+.presentation__wrap {
+	@include bp($tablet, min) {
+		@include flex_block(row, wrap, flex-start, flex-end, flex-end);
+		flex-direction: row-reverse;
+	}
+}
+
+.presentation__col_pic {
+	@include bp($tablet, min) {
+		width: 50.2%;
+	}
+
+	@include bp($tablet - 1) {
+		margin-bottom: 2rem;
+	}
+}
+
+.presentation__pic_wrap {
+	position: relative;
+
+	@include bp($tablet, min) {
+		padding-left: 16.2%;
+		padding-right: 13.8%;
+		padding-bottom: 3.2rem;
+	}
+
+	@include bp($tablet - 1) {
+		padding-left: 20.8%;
+		padding-bottom: 6.5rem;
+	}
+}
+
+.presentation__pic {
+	overflow: hidden;
+
+	&.presentation__pic--v2_mod {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+
+		@include bp($tablet, min) {
+			padding-right: 53%;
+		}
+
+		@include bp($tablet - 1) {
+			padding-right: 44.5%;
+		}
+	}
+}
+
+.presentation__img {
+	@include cover_img;
+
+	.presentation__pic--v1_mod & {
+		@include bp($tablet, min) {
+			aspect-ratio: 506/674;
+		}
+
+		@include bp($tablet - 1) {
+			aspect-ratio: 506/692;
+		}
+	}
+
+	.presentation__pic--v2_mod & {
+		aspect-ratio: 340/425;
+	}
+
+	@include bp($tablet, min) {
+		border-radius: 2rem;
+	}
+
+	@include bp($tablet - 1) {
+		border-radius: 1.4rem;
+	}
+}
+
+.presentation__col_content {
+	@include bp($tablet, min) {
+		width: 49.8%;
+	}
+}
+
+.presentation__description {
+	font-weight: 400;
+
+	&:not(:last-child) {
+		@include bp($tablet, min) {
+			margin-bottom: 2.2rem;
+		}
+
+		@include bp($tablet - 1) {
+			margin-bottom: 1.8rem;
+		}
+	}
+
+	@include bp($tablet, min) {
+		font-size: 2.8rem;
+		line-height: 1.26;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 2.4rem;
+		line-height: 1.15;
+	}
+}
+
+.presentation__content {
+	max-width: 45rem;
+
+	@include bp($tablet, min) {
+		padding: 2rem 2rem 8.6rem 14%;
+	}
+
+	@include bp($tablet - 1) {
+
+	}
+}
+
+.presentation__link {
+	@include btn_size_lg;
+	@include btn_style_transparent;
+
+	@include bp($tabletMd - 1) {
+		font-size: 1.7rem;
+		width: 100%;
+	}
+}
+
+.presentation__link_icon {
+	display: block;
+	margin-left: 1rem;
+
+	@include bp($tablet, min) {
+		width: 3.2rem;
+		height: 3.2rem;
+	}
+
+	@include bp($tablet - 1) {
+		width: 2.4rem;
+		height: 2.4rem;
+	}
+}

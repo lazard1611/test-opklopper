@@ -1,0 +1,173 @@
+.drop {
+	cursor: pointer;
+	position: relative;
+
+	.header__nav & {
+		padding-right: 1.8rem;
+	}
+
+	.header__lang--desktop_mod & {
+		@include bp($laptop - 1) {
+			display: none;
+		}
+	}
+}
+
+.drop_menu {
+	position: absolute;
+	z-index: 20;
+
+	top: 100%;
+	left: 0.2rem;
+	height: auto;
+	min-width: 20rem;
+
+	opacity: 0;
+	visibility: hidden;
+
+	transition: opacity 0.2s ease, transform 0.3s ease;
+
+	.header__lang & {
+		min-width: 5rem;
+	}
+
+	.header_sidebar__bottom & {
+		bottom: 100%;
+		top: auto;
+	}
+
+	@media (any-hover: hover) {
+		.drop:hover & {
+			opacity: 1;
+			visibility: visible;
+
+			@include bp($laptop, min) {
+				transform: translateY(-0.3rem);
+			}
+
+			@include bp($laptop - 1) {
+				transform: translateY(0.3rem);
+			}
+		}
+	}
+
+	.drop--active_state & {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	@include bp($laptop, min) {
+		padding-top: 1.3rem;
+
+		.drop--active_state & {
+			transform: translateY(-0.3rem);
+		}
+	}
+
+	@include bp($laptop - 1) {
+		padding-bottom: 1.4rem;
+
+		.drop--active_state & {
+			transform: translateY(1.4rem);
+		}
+	}
+}
+
+.drop__btn {
+	z-index: 2;
+	position: relative;
+
+	font-family: $font_1;
+	@include flex_block(row, nowrap, flex-start, center, center);
+	font-size: 1.8rem;
+	line-height: 1;
+
+	cursor: pointer;
+
+	.header__lang & {
+		font-size: 1.4rem;
+	}
+}
+
+.drop__btn_decor {
+	flex-shrink: 0;
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-right: 0.6rem;
+}
+
+.drop__btn_text {
+	display: inline-flex;
+	align-items: center;
+	align-content: center;
+	color: $black_1;
+}
+
+.drop__btn_icon {
+	flex-shrink: 0;
+
+	margin-left: 1rem;
+	transition: transform 0.3s ease;
+
+	.header__lang & {
+		margin-left: 0.4rem;
+		width: 2.2rem;
+		height: 2.2rem;
+	}
+
+	@media (any-hover: hover) {
+		.drop:hover & {
+			transform: rotate(180deg);
+		}
+	}
+
+	.drop--active_state & {
+		transform: rotate(180deg);
+	}
+}
+
+.header__right_list_wrap {
+	&:not(:last-child) {
+		margin-right: 2rem;
+	}
+}
+
+.drop_menu__list {
+	background-color: $white;
+	box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1);
+	border-radius: $glRadius;
+	overflow: hidden;
+}
+
+.drop_menu__item {
+}
+
+.drop_menu__link {
+	position: relative;
+	display: block;
+
+	width: 100%;
+
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+
+	white-space: nowrap;
+	color: $gray;
+	transition: background-color 0.3s ease, color 0.3s ease;
+
+	&:not(.drop_menu__item:last-child &) {
+		padding: 1.2rem 1.4rem 0.8rem;
+	}
+
+	.drop_menu__item:last-child & {
+		padding: 1.2rem 1.4rem 1.4rem;
+	}
+
+	&:focus,
+	&:hover {
+		background-color: $yellow;
+		color: $black;
+	}
+}

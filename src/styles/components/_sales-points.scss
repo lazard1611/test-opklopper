@@ -1,0 +1,11 @@
+.sales_points {
+
+}
+
+.sales_points__item {
+	@include flex_block(row, wrap, flex-start, center);
+
+	&:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+}

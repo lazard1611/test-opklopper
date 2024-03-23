@@ -1,0 +1,96 @@
+.characteristics {
+	@include bp($tablet - 1) {
+		padding-top: 1rem;
+	}
+}
+
+.characteristics__wrap {
+
+}
+
+.characteristics__head {
+	&:not(:last-child) {
+		@include bp($tablet - 1) {
+			margin-bottom: 1.8rem;
+		}
+	}
+}
+
+.characteristics__list {
+
+	@include bp($laptop, min) {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		align-items: start;
+		gap: 2rem;
+	}
+}
+
+.characteristics__item {
+	@include bp($tablet, min) {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	&:not(:last-child) {
+		@include bp($laptop - 1) {
+			margin-bottom: 1.6rem;
+		}
+	}
+}
+
+.characteristics__title {
+	font-weight: 600;
+
+	.characteristics__item:nth-child(even) & {
+		@include bp($laptop, min) {
+			max-width: 24.2rem;
+		}
+	}
+
+	@include bp($laptop, min) {
+		max-width: 29rem;
+		width: 100%;
+	}
+
+	@include bp($tablet, min) {
+		padding-right: 2rem;
+		font-size: 2.1rem;
+		line-height: 1.42;
+	}
+
+	@include bp($tablet - 1) {
+		display: inline-block;
+		//padding-right: 0.4rem;
+		font-size: 1.8rem;
+		line-height: 1;
+	}
+}
+
+.characteristics__value {
+	font-weight: 400;
+	color: $gray_4;
+
+	.characteristics__item:nth-child(even) & {
+		@include bp($laptop, min) {
+			max-width: 37rem;
+		}
+	}
+
+	.characteristics__item:nth-child(odd) & {
+		@include bp($laptop, min) {
+			max-width: 36rem;
+		}
+	}
+
+	@include bp($tablet, min) {
+		font-size: 2rem;
+		line-height: 1.42;
+	}
+
+	@include bp($tablet - 1) {
+		display: inline-block;
+		font-size: 1.8rem;
+		line-height: 1;
+	}
+}

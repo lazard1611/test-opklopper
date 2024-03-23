@@ -1,0 +1,23 @@
+.product_favorite {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 4.4rem;
+	height: 4.4rem;
+
+	border: 1px solid $black_1;
+	border-radius: 0.4rem;
+	transition: color 0.3s ease;
+
+	color: transparent;
+
+	span {
+		color: inherit;
+	}
+
+	&:focus,
+	&:hover {
+		color: $black_1;
+	}
+}

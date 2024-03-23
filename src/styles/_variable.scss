@@ -1,0 +1,53 @@
+//---------------------------------------------fonts
+$font_1: 'Avenir', sans-serif;
+$fontSizeBase: 1.6rem;
+//---------------------------------------------fonts###
+//---------------------------------------------layout
+$pageWidth: 144.2rem;
+//---------------------------------------------layout###
+//---------------------------------------------colors
+$white: #fff;
+$black: #000000;
+$black_1: #2c2929;
+$gray: #434343;
+$gray_1: #f0f0f0;
+$gray_2: #dedede;
+$gray_3: #2C2929;
+$gray_4: #8C8C8C;
+$yellow: #FFF4A8;
+$red: #FF0000;
+
+$colorTextBase: $black_1;
+$colorLinkBase: #3856E5;
+$bodyBg: $white;
+//---------------------------------------------colors###
+//---------------------------------------------global values
+$glRadius: 0.8rem;
+//---------------------------------------------global values###
+//---------------------------------------------media points
+
+$desktop: 1600px;
+$laptop: 1200px;
+$tabletPortrait: 1024px;
+$tablet: 768px;
+$tabletMd: 480px;
+$small: 375px;
+//---------------------------------------------media points###
+//---------------------------------------------form style
+$input_height: 2rem;
+$input_offset: 1rem;
+$input_font_size: $fontSizeBase;
+$input_text_color: $black;
+$input_border_color: $black;
+$input_radius: 0.2rem;
+$input_border_color_active: $colorLinkBase;
+$input_placeholder_color: $gray;
+//---------------------------------------------form style###
+
+//---------------------------------------------media points
+$point_0: 1600px;
+$point_1: 1200px;
+$point_2: 1024px;
+$point_3: 768px;
+$point_4: 375px;
+//---------------------------------------------media

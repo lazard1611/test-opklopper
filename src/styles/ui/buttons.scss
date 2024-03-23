@@ -1,0 +1,15 @@
+.btn_normal {
+	@include btn_size_normal;
+	@include btn_style_black;
+}
+
+.btn_normal_transparent {
+	@include btn_size_normal;
+	@include btn_style_transparent;
+}
+
+.show_btn {
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+

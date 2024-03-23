@@ -1,0 +1,91 @@
+@mixin h1 {
+	font-weight: 600;
+
+	@include bp($tablet, min) {
+		font-size: 5.2rem;
+		line-height: 1.1;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 3.2rem;
+		line-height: 1.09;
+	}
+}
+
+@mixin h2 {
+	line-height: 1.28;
+	font-weight: 600;
+
+	@include bp($tablet, min) {
+		font-size: 4.2rem;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 2.8rem;
+	}
+}
+
+@mixin h3 {
+	font-weight: 600;
+
+	@include bp($laptop, min) {
+		font-size: 6.2rem;
+		line-height: 1.16;
+	}
+
+	@include bp($laptop - 1, $tablet) {
+		font-size: 3.6rem;
+		line-height: 1.16;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 2.8rem;
+		line-height: 1.25;
+	}
+}
+
+@mixin h4 {
+	font-weight: 600;
+
+	@include bp($tablet, min) {
+		font-size: 3.2rem;
+		line-height: 1.28;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 2.4rem;
+		line-height: 1.33;
+	}
+}
+
+@mixin h5 {
+	font-weight: 400;
+	line-height: 1.42;
+
+	@include bp($tablet, min) {
+		font-size: 2rem;
+	}
+
+	@include bp($tablet - 1) {
+		font-size: 1.8rem;
+	}
+}
+
+@mixin h6 {
+	font-size: 1rem;
+}
+
+@mixin text {
+	font-size: 0.8rem;
+}
+// offsets
+
+@mixin title_offset {
+	@include bp($tablet, min) {
+		margin-bottom: 2.2rem;
+	}
+
+	@include bp($tablet - 1) {
+		margin-bottom: 2.6rem;
+	}
+}

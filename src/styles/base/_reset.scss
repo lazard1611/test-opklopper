@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+:before, :after {
+	box-sizing: border-box;
+}
+
+a {
+	color: $colorLinkBase;
+	text-decoration: none;
+}
+
+textarea:focus-visible {
+	outline: 0;
+}
+
+input {
+	outline: none;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+button {
+	cursor: pointer;
+}
+
+picture {
+	display: block;
+}
+
+fieldset {
+	border: none;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+input, select, textarea, button {
+	font-family: $font_1;
+	border: transparent;
+}
