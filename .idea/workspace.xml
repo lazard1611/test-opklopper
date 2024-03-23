@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11ddf5c1-5e37-4262-bd55-a30092239820" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2dx0cBSFfXjyXMUA2xX5J2MlHd2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scripts/components" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\test\test-sabotazh\src\scripts\components" />
+      <recent name="D:\web\test\test-sabotazh\src\styles\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11ddf5c1-5e37-4262-bd55-a30092239820" name="Default Changelist" comment="" />
+      <created>1710934498301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710934498301</updated>
+      <workItem from="1710934499551" duration="57876000" />
+      <workItem from="1711048143580" duration="2783000" />
+      <workItem from="1711086279325" duration="52578000" />
+      <workItem from="1711173214907" duration="10476000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1710959921094">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1710959921094" />
+    <state x="469" y="208" key="EditFileWatcherDialog" timestamp="1710942537201">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="469" y="208" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1710942537201" />
+    <state x="580" y="185" width="675" height="625" key="FileChooserDialogImpl" timestamp="1711180944884">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" width="675" height="625" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1711180944884" />
+    <state width="1557" height="117" key="GridCell.Tab.0.bottom" timestamp="1711185409158">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="117" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1711185409158" />
+    <state width="1557" height="117" key="GridCell.Tab.0.center" timestamp="1711185409158">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="117" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1711185409158" />
+    <state width="1557" height="117" key="GridCell.Tab.0.left" timestamp="1711185409158">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="117" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1711185409158" />
+    <state width="1557" height="117" key="GridCell.Tab.0.right" timestamp="1711185409158">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="117" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1711185409158" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1711048261210">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1711048261210" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1711090383661">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1711090383661" />
+    <state x="507" y="163" width="585" height="592" key="find.popup" timestamp="1711142836159">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="163" width="585" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1711142836159" />
+  </component>
+</project>
