@@ -1,4 +1,33 @@
-import { onWindowResize } from '../utils/utils';
+function debounce(delay, fn) {
+    let timerId;
+    return (...args) => {
+        if (timerId) {
+            clearTimeout(timerId);
+        }
+        timerId = setTimeout(() => {
+            fn(...args);
+            timerId = null;
+        }, delay);
+    };
+}
+
+function isFunction(func) {
+    return func instanceof Function;
+}
+
+const onWindowResize = (cb) => {
+    if (!cb && !isFunction(cb)) return;
+
+    const handleResize = () => {
+        cb();
+    };
+
+    window.addEventListener('resize', debounce(15, handleResize));
+
+    handleResize();
+};
+
+
 const showMoreAndLess = () => {
     const SELECTORS = {
         container: '.js-hidden-text-container',

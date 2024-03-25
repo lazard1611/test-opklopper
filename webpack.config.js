@@ -50,6 +50,7 @@ module.exports = {
             },
             {
                 test: /\.(c|sa|sc)ss$/i,
+                // include: path.resolve(__dirname, 'src/styles/components'),
                 use: [
                     devMode ? "style-loader" : MiniCssExtractPlugin.loader,
                     'css-loader',

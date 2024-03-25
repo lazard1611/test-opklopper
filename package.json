@@ -1,7 +1,7 @@
 {
   "main": "index.js",
   "description": "",
-  "homepage": "https://lazard1611.github.io/test-sabotazh/",
+  "homepage": "https://lazard1611.github.io/test-opklopper/",
   "scripts": {
     "start": "webpack server",
     "build-dev": "webpack",
